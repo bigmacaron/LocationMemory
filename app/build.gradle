@@ -49,4 +49,9 @@ dependencies {
 
     // 네이버 지도 SDK
     implementation("com.naver.maps:map-sdk:3.12.0")
+    //구글 현재 위치
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 }
